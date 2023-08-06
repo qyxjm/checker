@@ -1,0 +1,108 @@
+
+.environment {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: center / contain linear-gradient(130deg, rgba(252, 189, 153, 0.6), rgba(127, 209, 186, 0.6));
+    filter: blur(15px);
+}
+
+/* LogIn Page */
+
+form.modalWindow {
+    position: absolute;
+
+    left: calc(50% - 190px);
+    top: calc(50% - 250px);
+
+    width: 380px;
+    height: 500px;
+
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.loginText {
+    margin-top: 35px;
+
+    height: 65px;
+
+    text-align: center;
+    font-family: system-ui;
+    font-size: 40px;
+    color: #20B2AD;
+}
+
+.input {
+    margin-top: 20px;
+    margin-left: 60px;
+
+    width: 260px;
+    height: 60px;
+
+    background-color: whitesmoke;
+
+    border: 2px solid rgba(127, 209, 186, 0.6);
+    border-radius: 5px;
+
+    text-indent: 10px;
+    font-family: system-ui;
+    font-size: 15px;
+    color: #20B2AD;
+}
+
+input :focus {
+    border: 2px solid #FF8B2E;
+}
+
+.info {
+    margin-top: 10px;
+
+    height: 20px;
+
+    text-align: center;
+    font-family: system-ui;
+    font-size: 15px;
+    color: #FF8B2E;
+}
+
+.submit {
+    margin-top: 60px;
+    margin-left: 110px;
+
+    width: 160px;
+    height: 60px;
+
+    background-color: #20B2AD;
+
+    border: 0px;
+    border-radius: 5px;
+
+    text-align: center;
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.registrationLink {
+    margin-top: 25px;
+
+    height: 20px;
+
+    text-align: center;
+    font-family: system-ui;
+    font-size: 15px;
+    color: #20B2AD;
+}
+
+.link {
+    color: #FF8B2E;
+}
